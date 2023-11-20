@@ -1,0 +1,52 @@
+.qak-wrap {
+  margin-top: 45px;
+  background-color: rgb(243, 245, 247);
+  padding: 20px;
+  align-self: center;
+  border: solid 3px;
+  border-color: rgba(124, 124, 213, 0.69);
+  padding: 20px;
+}
+.qak-case {
+  background-color: rgb(243, 245, 247);
+  border-radius: 10px;
+  border: solid 1px;
+  border-color: rgba(124, 124, 213, 0.72);
+  padding: 20px;
+}
+
+.navbar {
+  z-index: 2; /* Higher z-index for the navbar */
+}
+
+.accordion {
+  border-width: 2px;
+  border-style: solid;
+}
+
+/* .fixed-content {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  padding: 10px;
+  text-align: center;
+  background-color: lightgray;
+  opacity: 1;
+} */
+
+.content-below-top-panel {
+  margin-top: 15px; /* Adjust the margin-top to match the height of the fixed top panel */
+  padding: 15px;
+  /* No need to set z-index here */
+}
+
+.edit,
+.delete {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 20px;
+  text-decoration: underline;
+  color: blue;
+}

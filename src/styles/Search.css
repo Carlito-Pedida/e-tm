@@ -1,0 +1,45 @@
+
+/* Style the search results */
+.search-results {
+  max-height: 50%;
+  background-color: rgb(124, 124, 213);
+  width: 100%;
+  padding: 20px;
+
+
+}
+
+/* Style the list of search results */
+.list-group.search-results {
+  margin-top: 50px; /* Removed margin to avoid unnecessary spacing */
+  padding: 0px;
+  width: 100%;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+
+.user-info{
+  margin-right: 50px;
+  text-align: left;
+}
+
+
+.input-group{
+  margin-left: 0px;
+  margin-top: 8px;
+  padding: auto;
+  align-items: flex-start;
+  /* width: 80%; */
+}
+
+.pick-category-text{
+  padding: 7px;
+}
+.form-control{
+  margin-right: 1%;
+}
+
+.result-category{
+  padding-top: 8px;
+}
