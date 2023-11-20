@@ -1,0 +1,48 @@
+.edit-prof-wrap {
+  background-color: rgb(243, 245, 247);
+  margin: 0 auto;
+  position: absolute;
+  top: 53%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: solid 3px;
+  border-color: rgb(124, 124, 213);
+  padding: 20px;
+  width: 75%;
+}
+.edit-prof-case {
+  border: solid 1px;
+  border-radius: 7px;
+  border-color: rgb(124, 124, 213);
+  padding: 20px;
+}
+
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: rgb(124, 124, 213);
+}
+.edit-label {
+  color: rgb(124, 124, 213);
+  text-decoration: none;
+}
+.register-link:hover {
+  color: rgb(152, 42, 255);
+  font-weight: bold;
+}
+.register:hover {
+  color: rgb(73, 111, 247);
+}
+.edit-prof-button {
+  color: white;
+  background-color: rgb(13, 110, 253);
+  border-radius: 5px;
+  border: 0px;
+  height: 40px;
+}
+
+.form-title {
+  color: rgb(111, 111, 194);
+}

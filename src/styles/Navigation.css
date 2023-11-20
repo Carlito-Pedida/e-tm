@@ -1,0 +1,91 @@
+.brand-logo {
+  font-family: "Prompt", sans-serif;
+  font-size: x-large;
+  font-weight: 600;
+  text-shadow: 4px 4px 4px #aaa;
+  color: rgba(90, 90, 178, 0.951);
+}
+.brand {
+  box-shadow: 4px 4px 4px #aaa;
+  border: solid 1px;
+  border-color: rgba(75, 75, 150, 0.951);
+  border-radius: 2px;
+}
+
+.brand {
+  animation-name: spin;
+  animation-duration: 700ms;
+  animation-iteration-count: initial;
+  animation-timing-function: inherit;
+}
+@keyframes spin {
+  from {
+    transform: rotate(000deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.nav-wrap {
+  display: flex;
+  width: 100%;
+}
+.sign-in {
+  padding: 10px;
+  width: 200px;
+}
+.nav-bar {
+  height: 75px;
+  color: rgba(109, 109, 220, 0.951);
+  background-color: rgba(208, 208, 238);
+  border: solid 1px;
+  padding: 30px;
+  background-image: linear-gradient(
+    to right,
+    rgb(223, 223, 241),
+    rgba(147, 147, 210, 0.714),
+    rgb(208, 208, 238)
+  );
+}
+.img-border {
+  border: solid 1px rgb(56, 56, 96);
+}
+
+.search-tool:hover {
+  height: 30px;
+  color: rgb(136, 26, 239);
+}
+.nav-link {
+  color: beige;
+}
+.nav-link:hover {
+  background-color: rgb(218, 224, 233);
+  border-radius: 2px;
+  align-items: center;
+  color: rgb(111, 111, 180);
+}
+.floating-search {
+  background-color: lightgrey; /* Set the background color to white for light mode */
+  width: 100%; /* Adjust the width as needed */
+  transition: background-color 0.3s;
+}
+strong:hover {
+  color: rgb(110, 73, 221);
+}
+
+.nav-search-icon {
+  padding-top: 8px;
+  padding-left: 12px;
+}
+
+.prof-name {
+  color: rgb(56, 56, 96);
+}
+.prof-name:hover {
+  color: rgb(88, 43, 252);
+}
+
+.vl {
+  border-left: 2px solid rgb(109, 109, 220);
+  height: 55px;
+}

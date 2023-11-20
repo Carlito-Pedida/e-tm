@@ -1,0 +1,56 @@
+/* styles/Profile.css */
+.prof-wrap {
+  margin-top: 45px;
+  background-color: rgb(243, 245, 247);
+  padding: 20px;
+  align-self: center;
+  border: solid 3px;
+  border-color: rgba(124, 124, 213, 0.69);
+  padding: 20px;
+}
+.prof-case {
+  background-color: rgb(243, 245, 247);
+  border-radius: 10px;
+  border: solid 1px;
+  border-color: rgba(124, 124, 213, 0.72);
+  padding: 35px;
+}
+
+.profile-section {
+  background-color: #d7c4c4;
+  padding: 20px;
+}
+
+.profile-top {
+  display: flex;
+  align-items: center;
+}
+.q-card {
+  padding: 25px;
+  display: flex;
+  background-color: #d7c4c42c;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.q {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  border-radius: 12px;
+  background-color: rgba(124, 124, 213, 0.087);
+}
+.text-dec {
+  text-decoration: none;
+  color: rgb(74, 95, 112);
+}
+.text-hove:hover {
+  text-decoration: none;
+  color: rgb(87, 121, 255);
+}
+.arrow {
+  color: rgb(110, 119, 187);
+}
+.backtext {
+  text-decoration: none;
+  color: rgba(114, 76, 239, 0.897);
+}

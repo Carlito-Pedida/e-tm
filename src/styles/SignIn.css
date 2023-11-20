@@ -1,0 +1,36 @@
+.form-wrap {
+  border: solid 3px;
+  border-color: rgb(124, 124, 213);
+  padding: 20px;
+}
+.form-case {
+  border: solid 1px;
+  border-color: rgb(124, 124, 213);
+  padding: 20px;
+}
+.text-area {
+  border-color: rgb(203, 203, 203);
+  border-radius: 3px;
+}
+
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: rgb(124, 124, 213);
+}
+.register-link {
+  color: rgb(124, 124, 213);
+  text-decoration: none;
+}
+.register-link:hover {
+  color: rgb(152, 42, 255);
+  font-weight: bold;
+}
+.register:hover {
+  color: rgb(73, 111, 247);
+}
+.close-button {
+  text-align: right;
+}
